@@ -1,16 +1,12 @@
 package com.example.mycoscan;
 
 import android.os.Bundle;
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity {
-
+public class Ulubione extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this); //extends the app even to the navigation bar and home buttons!
-        setContentView(R.layout.activity_main); //link .java with .xml
+        setContentView(R.layout.activity_ulubione);
 
         if (savedInstanceState == null) {
             DropdownMenuFragment dropdownFragment = new DropdownMenuFragment();
