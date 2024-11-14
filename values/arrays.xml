@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="menu_options" >
-        <item>Start</item>
-        <item>Option1</item>
-        <item>Option2</item>
+        <item>Menu</item>
+        <item>Skaner</item>
+        <item>Ulubione</item>
+        <item>Pomoc</item>
+        <item>Atlas Grzybów</item>
     </string-array>
 </resources>
