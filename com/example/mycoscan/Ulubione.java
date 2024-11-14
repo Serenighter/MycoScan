@@ -9,8 +9,11 @@ public class Ulubione extends AppCompatActivity {
         setContentView(R.layout.activity_ulubione);
 
         if (savedInstanceState == null) {
-            DropdownMenuFragment dropdownFragment = new DropdownMenuFragment();
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, dropdownFragment).commit();
+            DropdownMenuFragment dropdownFragment = DropdownMenuFragment.newInstance("Ulubione");
+
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, dropdownFragment)
+                    .commit();
         }
     }
 }

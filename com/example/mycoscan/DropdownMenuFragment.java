@@ -17,12 +17,28 @@ public class DropdownMenuFragment extends Fragment {
 
     private MaterialAutoCompleteTextView menuOption;
 
+    public static DropdownMenuFragment newInstance(String selectedItem) {
+        DropdownMenuFragment fragment = new DropdownMenuFragment();
+        Bundle args = new Bundle();
+        //args.putInt("HINT_ID", hintId); //hint not needed
+        args.putString("Selected_Item", selectedItem);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_dropdown, container, false);
 
         menuOption = rootView.findViewById(R.id.menuOption);
+
+        if (getArguments() != null) {
+            //int hintId = getArguments().getInt("HINT_ID", R.string.menu_hint); //-hint not needed
+            String selectedItem = getArguments().getString("Selected_Item", "Menu");
+            //menuOption.setHint(getString(hintId)); //-hint not needed
+            menuOption.setText(selectedItem);
+        }
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_dropdown_item_1line, getResources().getStringArray(R.array.menu_options));
         menuOption.setAdapter(adapter);

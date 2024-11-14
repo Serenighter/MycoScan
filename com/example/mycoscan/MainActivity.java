@@ -13,8 +13,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main); //link .java with .xml
 
         if (savedInstanceState == null) {
-            DropdownMenuFragment dropdownFragment = new DropdownMenuFragment();
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, dropdownFragment).commit();
+            DropdownMenuFragment dropdownFragment = DropdownMenuFragment.newInstance("Menu");
+
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, dropdownFragment)
+                    .commit();
         }
     }
 }
