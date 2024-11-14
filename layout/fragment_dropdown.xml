@@ -32,8 +32,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="none"
-            android:hint="Menu"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:paddingTop="5dp"
+            android:drawablePadding="-31dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="20sp"
             app:simpleItems="@array/menu_options" />
+            <!--android:hint="@string/menu_hint"-->
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MycoScan</string>
+    <string name="menu_hint">Menu</string>
+    <string name="skaner_hint">Skaner</string>
+    <string name="ulubione_hint">Ulubione</string>
+    <string name="pomoc_hint">Pomoc</string>
+    <string name="atlas_hint">Atlas Grzybów</string>
 </resources>
