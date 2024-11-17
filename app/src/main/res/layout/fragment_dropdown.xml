@@ -24,13 +24,15 @@
         app:boxCornerRadiusTopEnd="5dp"
         app:boxCornerRadiusTopStart="5dp"
         app:boxStrokeWidth="0dp"
-        app:boxStrokeWidthFocused="0dp">
+        app:boxStrokeWidthFocused="0dp"
+        app:boxBackgroundColor="@color/brown">
 
         <!-- The MaterialAutoCompleteTextView for the dropdown -->
         <com.google.android.material.textfield.MaterialAutoCompleteTextView
             android:id="@+id/menuOption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/brown"
             android:inputType="none"
             android:gravity="center"
             android:importantForAccessibility="no"
@@ -38,7 +40,8 @@
             android:drawablePadding="-31dp"
             android:fontFamily="sans-serif-medium"
             android:textSize="20sp"
-            app:simpleItems="@array/menu_options" />
+            app:simpleItems="@array/menu_options"
+            android:textColor="@color/light_brown"/>
             <!--android:hint="@string/menu_hint"-->
     </com.google.android.material.textfield.TextInputLayout>
 

@@ -1,6 +1,7 @@
 package com.example.mycoscan;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.textfield.MaterialAutoCompleteTextView;
@@ -33,6 +35,10 @@ public class DropdownMenuFragment extends Fragment {
 
         menuOption = rootView.findViewById(R.id.menuOption);
 
+        menuOption.setDropDownBackgroundDrawable( //method for coloring the menu that drops down after pressing the button!
+                new ColorDrawable(ContextCompat.getColor(requireContext(), R.color.light_brown))
+        );
+
         if (getArguments() != null) {
             //int hintId = getArguments().getInt("HINT_ID", R.string.menu_hint); //-hint not needed
             String selectedItem = getArguments().getString("Selected_Item", "Menu");
@@ -40,7 +46,7 @@ public class DropdownMenuFragment extends Fragment {
             menuOption.setText(selectedItem);
         }
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_dropdown_item_1line, getResources().getStringArray(R.array.menu_options));
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(requireContext(), R.layout.dropdown_item_layout, getResources().getStringArray(R.array.menu_options));
         menuOption.setAdapter(adapter);
 
         menuOption.setOnItemClickListener(new AdapterView.OnItemClickListener() {

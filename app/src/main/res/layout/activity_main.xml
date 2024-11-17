@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray"
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -34,9 +35,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:layout_below="@+id/MenuButton"
-        android:text="Button Example"
+        android:layout_marginTop="600dp"
+        android:layout_below="@+id/fragment_container"
+        android:text="Pomoc"
+        android:textSize="32sp"
+        android:textAllCaps="true"
+        android:backgroundTint="@color/brown"
         android:id="@+id/testButton"/>
     <FrameLayout
         android:id="@+id/fragment_container"
