@@ -1,5 +1,9 @@
 *.iml
-.gradle
+# Gradle files
+.gradle/
+gradle/
+*.gradle
+*.gradle.kts
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -8,15 +12,26 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
-/build
+/app/build/
+build/
 /captures
 .externalNativeBuild
 .cxx
-local.properties
 .hprof
 *.apk
 .idea/
 *.log
+*.bak
 output.json
 deploymentTargetDropDown.xml
 render.experimental.xml
+app/proguard-rules.pro
+# Test directories
+app/src/androidTest/
+app/src/test/
+# Executables
+gradlew
+gradlew.bat
+# Other generated files
+gradle-wrapper.jar
+gradle-wrapper.properties
