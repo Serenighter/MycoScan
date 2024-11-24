@@ -26,7 +26,7 @@
         android:id="@+id/editTextHelp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Funkcje Aplikacji\n\n- Ikona aparatu umożliwia wykonanie zdjęcia grzyba, który chcesz zidentyfikować. Po zrobieniu zdjęcia aplikacja automatycznie rozpocznie proces analizy obrazu, aby określić gatunek grzyba.\n- Ikona Galerii pozwala na sprawdzenie grzybów, których zdjęcia wykonałeś wcześniej.\n\nNajczęściej zadawane pytania (FAQ)\n\n1. Jak działa aplikacja do rozpoznawania grzybów?\n2. Aplikacja wykorzystuje zaawansowaną technologie rozpoznawania obrazów (AI), która analizuje zdjęcie grzybów i porównuje je z bazą danych. Po wykonaniu lub wgraniu zdjęcia aplikacja poda informacje o gatunku grzyba.\n3. Czy aplikacja zawsze rozpoznaje grzyby poprawnie?\n\n\n\n\n\n"
+        android:text="@string/faq"
         android:background="@color/light_brown"
         android:textSize="24sp"
         android:textColor="@color/black"
