@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:text="Pomoc"
-        android:textSize="24sp"/>
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray">
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true" />
-</RelativeLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <android.widget.ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.9"
+        app:layout_constraintHeight_percent="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_container">
+
+    <TextView
+        android:id="@+id/editTextHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Funkcje Aplikacji\n\n- Ikona aparatu umożliwia wykonanie zdjęcia grzyba, który chcesz zidentyfikować. Po zrobieniu zdjęcia aplikacja automatycznie rozpocznie proces analizy obrazu, aby określić gatunek grzyba.\n- Ikona Galerii pozwala na sprawdzenie grzybów, których zdjęcia wykonałeś wcześniej.\n\nNajczęściej zadawane pytania (FAQ)\n\n1. Jak działa aplikacja do rozpoznawania grzybów?\n2. Aplikacja wykorzystuje zaawansowaną technologie rozpoznawania obrazów (AI), która analizuje zdjęcie grzybów i porównuje je z bazą danych. Po wykonaniu lub wgraniu zdjęcia aplikacja poda informacje o gatunku grzyba.\n3. Czy aplikacja zawsze rozpoznaje grzyby poprawnie?\n\n\n\n\n\n"
+        android:background="@color/light_brown"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+
+
+    </android.widget.ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
