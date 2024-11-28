@@ -25,6 +25,7 @@
         <activity android:name=".Ulubione" />
         <activity android:name=".Pomoc" />
         <activity android:name=".AtlasGrzybow"/>
+        <activity android:name=".Start"/>
     </application>
 
 </manifest>

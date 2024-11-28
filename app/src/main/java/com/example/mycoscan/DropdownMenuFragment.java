@@ -83,6 +83,10 @@ public class DropdownMenuFragment extends Fragment {
                 Intent activity4Intent = new Intent(getActivity(), AtlasGrzybow.class);
                 startActivity(activity4Intent);
                 break;
+            case "Start":
+                Intent activity5Intent = new Intent(getActivity(), Start.class);
+                startActivity(activity5Intent);
+                break;
             default:
                 Toast.makeText(getContext(), "Unknown option", Toast.LENGTH_SHORT).show();
                 break;
