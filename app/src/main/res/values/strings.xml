@@ -5,5 +5,43 @@
     <string name="ulubione_hint">Ulubione</string>
     <string name="pomoc_hint">Pomoc</string>
     <string name="atlas_hint">Atlas Grzybów</string>
-    <string name="faq">Funkcje Aplikacji\n\n- Ikona aparatu umożliwia wykonanie zdjęcia grzyba, który chcesz zidentyfikować. Po zrobieniu zdjęcia aplikacja automatycznie rozpocznie proces analizy obrazu, aby określić gatunek grzyba.\n- Ikona Galerii pozwala na sprawdzenie grzybów, których zdjęcia wykonałeś wcześniej.\n\nNajczęściej zadawane pytania (FAQ)\n\n1. Jak działa aplikacja do rozpoznawania grzybów?\n2. Aplikacja wykorzystuje zaawansowaną technologie rozpoznawania obrazów (AI), która analizuje zdjęcie grzybów i porównuje je z bazą danych. Po wykonaniu lub wgraniu zdjęcia aplikacja poda informacje o gatunku grzyba.\n3. Czy aplikacja zawsze rozpoznaje grzyby poprawnie?\n\n\n\n\n\n</string>
+    <string name="faq">Funkcje aplikacji\n\n
+Ikona Aparatu\n
+Umożliwia wykonanie zdjęcia grzyba, który chcesz zidentyfikować. Po zrobieniu zdjęcia aplikacja automatycznie rozpocznie proces analizy obrazu, aby określić gatunek grzyba.\n
+Ikona Galerii\n
+Pozwala na sprawdzenie grzybów, których zdjęcia wykonałeś wcześniej.\n
+Najczęściej zadawane pytania (FAQ)\n
+1. Jak działa aplikacja do rozpoznawania grzybów?\n\n
+- Aplikacja wykorzystuje zaawansowaną technologię rozpoznawania obrazów (AI), która analizuje zdjęcia grzybów i porównuje je z bazą danych. Po wykonaniu lub wgraniu zdjęcia aplikacja poda informacje o gatunku grzyba.\n
+2. Czy aplikacja zawsze rozpoznaje grzyby poprawnie?\n\n
+- Chociaż aplikacja stara się zapewnić jak najwyższą dokładność, wyniki mogą być czasami niepewne. Zawsze warto sięgać po dodatkowe źródła informacji i unikać spożywania grzybów, co do których jadalności nie masz 100% pewności.\n
+3. Czy aplikacja rozpoznaje wszystkie gatunki grzybów?\n\n
+- Aplikacja posiada bazę danych popularnych gatunków grzybów, zarówno jadalnych, jak i trujących. Jednakże, może nie zawierać rzadkich lub lokalnych gatunków, szczególnie tych z odległych regionów.\n
+4. Jak zrobić dobre zdjęcie do rozpoznania grzyba?\n\n
+- Aby uzyskać najlepsze rezultaty:\n
+- Upewnij się, że zdjęcie jest dobrze oświetlone.\n
+- Uchwyć różne perspektywy, pokazując szczegóły takie jak kapelusz, trzon i blaszki/pory.\n
+- Postaraj się zbliżyć na cechy szczególne, np. kolor i fakturę.\n
+5. Czy aplikacja rozpoznaje grzyby na podstawie opisu tekstowego?\n\n
+- Obecnie aplikacja analizuje jedynie zdjęcia grzybów. W przyszłości planujemy wprowadzenie funkcji wyszukiwania na podstawie opisu.\n
+6. Co zrobić, jeśli aplikacja nie rozpoznała grzyba lub podała błędne informacje?\n\n
+- Spróbuj zrobić nowe zdjęcie z lepszym oświetleniem lub pod innym kątem.\n
+- Jeśli wynik nadal jest błędny, skonsultuj się z ekspertami lub sprawdź specjalistyczne źródła wiedzy o grzybach.\n
+7. Czy aplikacja identyfikuje grzyby trujące?\n\n
+- Tak, aplikacja rozpoznaje trujące grzyby i ostrzega przed ich spożyciem. Pamiętaj jednak, aby zachować szczególną ostrożność i nigdy nie spożywać grzybów bez pewności co do ich bezpieczeństwa.\n
+8. Czy mogę używać aplikacji offline?\n\n
+- Obecnie aplikacja wymaga połączenia z internetem, aby korzystać z bazy danych i technologii rozpoznawania obrazów. W przyszłości planujemy wprowadzenie trybu offline z ograniczoną funkcjonalnością.\n
+9. Czy aplikacja zapisuje historię moich skanów?\n\n
+- Tak, aplikacja pozwala na przechowywanie historii skanów, co umożliwia łatwy dostęp do wcześniejszych rozpoznań. Możesz także usunąć historię w ustawieniach.\n
+10. Czy mogę zgłosić błąd w rozpoznaniu grzyba?\n\n
+- Tak, za pomocą funkcji zgłaszania problemów możesz poinformować nas o błędnym rozpoznaniu. Twoje zgłoszenia pomagają nam ulepszać algorytmy i bazę danych.\n
+11. Czy aplikacja rozpoznaje inne rośliny?\n\n
+- Na chwilę obecną aplikacja skupia się wyłącznie na grzybach. W przyszłości planujemy rozszerzyć jej funkcje o możliwość rozpoznawania innych roślin.\n
+12. Jakie są wymagania sprzętowe aplikacji?\n\n
+- Aplikacja działa na smartfonach z:\n
+- Aparatem o minimalnej rozdzielczości (X MP),\n
+- Systemem Android/iOS w wersji (X.X) lub nowszej.\n
+13. Czy aplikacja przechowuje moje dane osobowe?\n\n
+- Aplikacja nie zbiera ani nie przechowuje Twoich danych osobowych bez Twojej zgody. Zdjęcia są wykorzystywane jedynie do analizy rozpoznania grzybów zgodnie z polityką prywatności.\n
+\n\n\n\n\n\n</string>
 </resources>
