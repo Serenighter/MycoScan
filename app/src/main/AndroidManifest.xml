@@ -26,6 +26,9 @@
         <activity android:name=".Pomoc" />
         <activity android:name=".AtlasGrzybow"/>
         <activity android:name=".Start"/>
+        <activity android:name=".Tutorial"/>
+        <activity android:name=".Tutorial2"/>
+        <activity android:name=".Tutorial3"/>
     </application>
 
 </manifest>
