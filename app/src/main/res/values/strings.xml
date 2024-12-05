@@ -5,6 +5,10 @@
     <string name="ulubione_hint">Ulubione</string>
     <string name="pomoc_hint">Pomoc</string>
     <string name="atlas_hint">Atlas Grzybów</string>
+    <string name="tutorial_header1">Zbyt mały, zbyt daleko</string>
+    <string name="tutorial_header2">Odpowiednia odległość</string>
+    <string name="tutorial_description1">Jeśli grzyby są skanowane ze zbyt dużej odległości, rozpoznawanie obrazu nie uzyska wystarczającej ilości szczegółów i wynik nie będzie miarodajny.</string>
+    <string name="tutorial_description2">Jeśli grzyby wypełniają formatkę, detekcja\n działa optymalnie. Oczywiście nie odległość powinna być też zbyt mała, tak aby cały grzyb znalazł się na zdjęciu</string>
     <string name="faq">Funkcje aplikacji\n\n
 Ikona Aparatu\n
 Umożliwia wykonanie zdjęcia grzyba, który chcesz zidentyfikować. Po zrobieniu zdjęcia aplikacja automatycznie rozpocznie proces analizy obrazu, aby określić gatunek grzyba.\n
