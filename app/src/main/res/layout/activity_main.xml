@@ -1,51 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray"
-    tools:context=".MainActivity">
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/MenuButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        app:boxCornerRadiusBottomEnd="5dp"
-        app:boxCornerRadiusBottomStart="5dp"
-        app:boxCornerRadiusTopEnd="5dp"
-        app:boxCornerRadiusTopStart="5dp"
-        app:boxStrokeWidth="0dp"
-        app:boxStrokeWidthFocused="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray">
     <FrameLayout
         android:id="@+id/fragment_container"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/MenuButton" />
-
+        app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
-        android:id="@+id/appName"
-        android:layout_width="0dp"
+        android:id="@+id/textOne"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/app_name"
-        android:textColor="@color/brown"
-        android:fontFamily="sans-serif-medium"
-        android:textSize="48sp"
-        app:layout_constraintWidth_percent="1"
-        app:layout_constraintVertical_bias="0.65"
+        android:text="Zrób zdjęcie"
+        android:textAllCaps="true"
+        android:textSize="38sp"
+        android:textColor="@color/dark_gray"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintTop_toBottomOf="@id/pomocButton"
+        app:layout_constraintBottom_toTopOf="@id/photoButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/fragment_container"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/pomocButton"
@@ -55,16 +36,67 @@
         android:layout_marginEnd="32dp"
         android:layout_marginTop="16dp"
         android:padding="16dp"
-        android:text="Pomoc"
-        android:textSize="20sp"
-        android:textAllCaps="true"
+        android:text="Wskazówki"
+        android:textSize="32sp"
         android:textColor="@color/light_brown"
         android:backgroundTint="@color/brown"
-        app:layout_constraintWidth_percent="0.4"
-        app:layout_constraintVertical_bias="0.75"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintWidth_percent="0.75"
+        app:layout_constraintVertical_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/appName"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/fragment_container"
+        app:layout_constraintBottom_toTopOf="@id/photoButton" />
 
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:id="@+id/photoButton"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:backgroundTint="@color/brown"
+        app:cornerRadius="63dp"
+        app:icon="@drawable/camera_24"
+        app:iconGravity="end"
+        app:iconSize="86dp"
+        app:iconTint="@color/light_brown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/fragment_container"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <TextView
+        android:id="@+id/textTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wczytaj zdjęcie"
+        android:textAllCaps="true"
+        android:textSize="38sp"
+        android:textColor="@color/dark_gray"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintTop_toBottomOf="@id/photoButton"
+        app:layout_constraintBottom_toTopOf="@id/addButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:id="@+id/addButton"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:backgroundTint="@color/brown"
+        app:cornerRadius="63dp"
+        app:icon="@drawable/add_photo_24"
+        app:iconGravity="end"
+        app:iconSize="80dp"
+        app:iconTint="@color/light_brown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/photoButton"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.25" />
 </androidx.constraintlayout.widget.ConstraintLayout>
