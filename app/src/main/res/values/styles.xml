@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar"/>
+
+
+    <!-- Stylizacja przycisków -->
+    <style name="button">
+        <item name="android:backgroundTint">@color/brown</item>
+        <item name="android:textColor">@color/light_brown</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <!-- Stylizacja tekstu tytuły -->
+    <style name="style_text_title">
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Stylizacja tekstu -->
+    <style name="style_text">
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- Stylizacja loga -->
+    <style name="app_logo">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:contentDescription">logo</item>
+    </style>
+
+    <!-- Stylizacja nazwy aplikacji -->
+    <style name="app_name">
+        <item name="android:fontFamily">@font/rubik_marker_hatch_regular</item>
+        <item name="android:textColor">@color/brown</item>
+    </style>
+
 
 </resources>

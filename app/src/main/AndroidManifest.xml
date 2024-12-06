@@ -25,6 +25,13 @@
         <activity android:name=".Ulubione" />
         <activity android:name=".Pomoc" />
         <activity android:name=".AtlasGrzybow"/>
+        <activity android:name=".tutorial1" android:exported="true"/>
+        <activity android:name=".tutorial2" android:exported="true"/>
+        <activity android:name=".tutorial3" android:exported="true"/>
+        <activity android:name=".tutorial4" android:exported="true"/>
+        <activity android:name=".tutorial5" android:exported="true"/>
+
+
     </application>
 
 </manifest>
