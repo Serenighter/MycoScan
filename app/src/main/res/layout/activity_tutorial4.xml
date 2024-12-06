@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray">
+
+    <TextView
+        android:id="@+id/du1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:ellipsize="end"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="9dp"
+        android:text="@string/tutorial_header7"
+        android:textColor="@color/brown"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/du2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/tutorial_description7"
+        android:textColor="@color/dark_gray"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/du1"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

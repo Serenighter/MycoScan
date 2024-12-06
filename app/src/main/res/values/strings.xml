@@ -7,8 +7,22 @@
     <string name="atlas_hint">Atlas Grzybów</string>
     <string name="tutorial_header1">Zbyt mały, zbyt daleko</string>
     <string name="tutorial_header2">Odpowiednia odległość</string>
+    <string name="tutorial_header3">Tylko kapelusz od góry</string>
+    <string name="tutorial_header4">Zdjęcie całego grzyba</string>
+    <string name="tutorial_header5">Bez naturalnego tła</string>
+    <string name="tutorial_header6">Naturalne tło</string>
+    <string name="tutorial_header7">Więcej wskazówek!</string>
     <string name="tutorial_description1">Jeśli grzyby są skanowane ze zbyt dużej odległości, rozpoznawanie obrazu nie uzyska wystarczającej ilości szczegółów i wynik nie będzie miarodajny.</string>
     <string name="tutorial_description2">Jeśli grzyby wypełniają formatkę, detekcja\n działa optymalnie. Oczywiście nie odległość powinna być też zbyt mała, tak aby cały grzyb znalazł się na zdjęciu</string>
+    <string name="tutorial_description3">Jeśli kapelusz grzyba jest sfotografowany\n tylko od góry, w rozpoznawaniu obrazu\n zabraknie informacji o kształcie trzonu i blaszek</string>
+    <string name="tutorial_description4">Kaptur, łodyga z bulwą, a zwłaszcza blaszki,\n rurki lub ściernisko powinny zawsze być\n na zdjęciu, aby wykrywanie dało dobre wyniki.</string>
+    <string name="tutorial_description5">Jeśli brakuje naturalnego tła, ważne szczegóły mogą nie zostać wykorzystane do rozpoznania.</string>
+    <string name="tutorial_description6">Środowisko naturalne zawiera ważne informacje, które mają pozytywny wpływ na dokładność rozpoznania grzyba</string>
+    <string name="tutorial_description7">1. Nigdy nie spożywaj grzybów wyłącznie na podstawie wykrycia przez aplikację\n\n
+        2. Zawsze zakładaj, że wyniki wykrywania grzybów mogą być błędne\n\n
+        3. Jeśli potrzebujesz pomocy w identyfikacji grzybów, zapytaj eksperta np. istnieją grupy na Facebooku, które są bardzo dobrze zorientowane w temacie grzybów\n\n
+        4. Upewnij się że jakość zdjęcia jest dobra: dla wiarygodnej identyfikacji, zdjęcie powinno być ostre, nie za ciemne lub za jasne\n\n
+    </string>
     <string name="faq">Funkcje aplikacji\n\n
 Ikona Aparatu\n
 Umożliwia wykonanie zdjęcia grzyba, który chcesz zidentyfikować. Po zrobieniu zdjęcia aplikacja automatycznie rozpocznie proces analizy obrazu, aby określić gatunek grzyba.\n
