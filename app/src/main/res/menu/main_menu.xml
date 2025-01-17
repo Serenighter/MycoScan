@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_skaner"
+            android:icon="@drawable/photo_icon"
+            android:title="Skaner" />
+
+        <item
+            android:id="@+id/nav_atlas_grzybów"
+            android:icon="@drawable/all_icon"
+            android:title="Atlas Grzybów" />
+
+        <item
+            android:id="@+id/nav_ulubione"
+            android:icon="@drawable/fav_icon"
+            android:title="Ulubione" />
+
+    </group>
+
+    <group>
+
+        <item android:title="O nas">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_ocen"
+                        android:icon="@drawable/rate_icon"
+                        android:title="Oceń nas" />
+                    <item
+                        android:id="@+id/nav_onas"
+                        android:icon="@drawable/human_icon"
+                        android:title="Twórcy" />
+                </group>
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+</menu>

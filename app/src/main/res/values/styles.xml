@@ -46,5 +46,11 @@
         <item name="android:textColor">@color/brown</item>
     </style>
 
+    <!-- Stylizacja opcji nav bar -->
+
+    <style name="menu_text" >
+        <item name="fontFamily">@font/roboto_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
 
 </resources>

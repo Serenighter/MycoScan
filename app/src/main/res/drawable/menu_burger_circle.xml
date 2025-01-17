@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Kształt tła -->
+    <item android:width="48dp" android:height="48dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/brown" />
+        </shape>
+    </item>
+
+    <!-- Ikona hamburgera -->
+    <item
+        android:drawable="@drawable/menu_burger"
+        android:gravity="center"/>
+</layer-list>

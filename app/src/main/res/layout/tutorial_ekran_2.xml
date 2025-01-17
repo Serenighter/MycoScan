@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:contentDescription="@string/alt_place_holder"
-            android:src="@drawable/test" />
+            android:src="@drawable/quest_icon" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:contentDescription="@string/alt_place_holder"
-            android:src="@drawable/test" />
+            android:src="@drawable/quest_icon" />
 
         <TextView
             android:layout_width="wrap_content"
