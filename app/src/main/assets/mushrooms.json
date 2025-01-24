@@ -1,0 +1,254 @@
+[
+  {
+    "title": "Borowik szlachetny",
+    "description": "Ceniony grzyb leśny o masywnym kapeluszu i brązowej barwie, często zbierany do potraw.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Maślak zwyczajny",
+    "description": "Grzyb o śluzowatym kapeluszu, popularny w polskich lasach. Jadalny po obraniu skórki.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Kurka (Pieprznik jadalny)",
+    "description": "Pomarańczowy, pofałdowany kapelusz o delikatnym smaku, doskonały w sosach i zupach.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Podgrzybek brunatny",
+    "description": "Popularny grzyb o ciemnobrązowym kapeluszu, ceniony w kuchni za smak.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Koźlarz czerwony",
+    "description": "Grzyb o czerwonym kapeluszu, spotykany pod brzozami. Jadalny i smaczny po ugotowaniu.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Koźlarz babka",
+    "description": "Grzyb o brązowym kapeluszu, rosnący głównie pod brzozami, jadalny po obróbce.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Rydz (Mleczaj rydz)",
+    "description": "Pomarańczowy grzyb, często smażony lub marynowany, szczególnie ceniony w Polsce.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Opieńka miodowa",
+    "description": "Mały grzyb rosnący w skupiskach na drzewach. Jadalny po ugotowaniu, gdyż na surowo lekko toksyczny.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Gąska zielonka",
+    "description": "Grzyb o zielonym kapeluszu, smaczny i jadalny, choć w niektórych krajach uważany za potencjalnie niebezpieczny.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Smardz jadalny",
+    "description": "Grzyb o charakterystycznym kapeluszu przypominającym gąbkę, niezwykle ceniony w kuchni.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Czubajka kania",
+    "description": "Duży grzyb o parasolowatym kapeluszu, często smażony jak kotlet schabowy.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Pieczarka polna",
+    "description": "Biały grzyb rosnący na łąkach, bardzo popularny w kuchni i łatwy w rozpoznaniu.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Boczniak ostrygowaty",
+    "description": "Popularny grzyb hodowlany, używany w wielu potrawach, szczególnie kuchni wegetariańskiej.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Mleczaj smaczny",
+    "description": "Grzyb o jasnobrązowym kapeluszu, znany z delikatnego, lekko orzechowego smaku.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Czubajeczka (Lepiota)",
+    "description": "Mały grzyb, często spotykany na trawnikach. Jadalny, lecz niewielki rozmiar utrudnia zbiór.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Gąska siwa",
+    "description": "Szary grzyb rosnący w lasach iglastych, ceniony w kuchni, szczególnie w potrawach z ziemniakami.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Lejkowiec dęty",
+    "description": "Ciemny, lejkowaty grzyb o delikatnym, lekko orzechowym smaku, ceniony przez kucharzy.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Twardzioszek przydrożny",
+    "description": "Mały grzyb o cienkim trzonie, często spotykany w trawie, jadalny, ale nieczęsto zbierany.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Płachetka kołpakowata",
+    "description": "Grzyb o spłaszczonym kapeluszu, rosnący w lasach, jadalny po obróbce.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Piestrzenica kasztanowata",
+    "description": "Grzyb trujący na surowo, jadalny po odpowiednim ugotowaniu, choć niebezpieczny w nieodpowiednich warunkach.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Trufla czarna",
+    "description": "Bardzo ceniony grzyb podziemny o intensywnym aromacie, dodawany do wykwintnych potraw.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Trufla biała",
+    "description": "Najbardziej ekskluzywna odmiana trufli, niezwykle aromatyczna i kosztowna.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Muchomor cesarski",
+    "description": "Grzyb o pomarańczowym kapeluszu, uważany za przysmak w krajach śródziemnomorskich.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Gołąbek zielonawy",
+    "description": "Grzyb o zielonkawym kapeluszu, smaczny i łatwo rozpoznawalny.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Gołąbek smaczny",
+    "description": "Delikatny grzyb, powszechnie zbierany w lasach liściastych i iglastych, smaczny po ugotowaniu.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Muchomor sromotnikowy",
+    "description": "Jeden z najbardziej trujących grzybów na świecie, spożycie może być śmiertelne.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Muchomor czerwony",
+    "description": "Grzyb o charakterystycznym czerwonym kapeluszu, halucynogenny i trujący.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Muchomor plamisty",
+    "description": "Trujący grzyb, zawiera silne toksyny powodujące halucynacje.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Muchomor wiosenny",
+    "description": "Biały, trujący grzyb, często mylony z jadalnymi pieczarkami.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Piestrzenica wiosenna",
+    "description": "Trujący grzyb, który po obróbce cieplnej może być jadalny, choć ryzykowny.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Łysiczka lancetowata",
+    "description": "Halucynogenny grzyb, często wykorzystywany w celach rekreacyjnych.",
+    "edibility": 1,
+    "image": null
+  },
+  {
+    "title": "Łysiczka meksykańska",
+    "description": "Silnie psychoaktywny grzyb halucynogenny, popularny w rytuałach.",
+    "edibility": 1,
+    "image": null
+  },
+  {
+    "title": "Łysiczka kubańska",
+    "description": "Grzyb o halucynogennych właściwościach, zawiera psylocybinę.",
+    "edibility": 1,
+    "image": null
+  },
+  {
+    "title": "Strzępiak ceglasty",
+    "description": "Grzyb trujący, zawiera toksyczne substancje szkodliwe dla zdrowia.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Zasłonak jadowity",
+    "description": "Trujący grzyb, powodujący ostre zatrucia nerkowe.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Twardziak łuskowaty",
+    "description": "Grzyb o twardym kapeluszu, niejadalny z powodu gorzkiego smaku.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Sromotnik fiołkowy",
+    "description": "Trujący grzyb, wydzielający nieprzyjemny zapach, niejadalny.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Krowiak podwinięty",
+    "description": "Dawniej uważany za jadalny, obecnie uznawany za trujący.",
+    "edibility": 2,
+    "image": null
+  },
+  {
+    "title": "Mitrówka półwolna",
+    "description": "Grzyb lekko trujący i halucynogenny, niebezpieczny dla zdrowia.",
+    "edibility": 1,
+    "image": null
+  },
+  {
+    "title": "Czernidłak kołpakowaty",
+    "description": "Grzyb jadalny, ale nie można go spożywać z alkoholem, gdyż powoduje zatrucia.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Płomiennica zimowa",
+    "description": "Mały grzyb rosnący w chłodniejszych miesiącach, jadalny i smaczny.",
+    "edibility": 0,
+    "image": null
+  },
+  {
+    "title": "Lakownica żółtawa",
+    "description": "Grzyb niejadalny, ale używany w medycynie chińskiej jako lek.",
+    "edibility": 1,
+    "image": null
+  }
+]

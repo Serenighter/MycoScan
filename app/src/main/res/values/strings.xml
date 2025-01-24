@@ -62,4 +62,52 @@ Najczęściej zadawane pytania (FAQ)\n
 13. Czy aplikacja przechowuje moje dane osobowe?\n\n
 - Aplikacja nie zbiera ani nie przechowuje Twoich danych osobowych bez Twojej zgody. Zdjęcia są wykorzystywane jedynie do analizy rozpoznania grzybów zgodnie z polityką prywatności.\n
 \n\n\n\n\n\n</string>
+    <!-- Stringi do Przycisków w tutorialu -->
+    
+    <string name="pomiń">Pomiń</string>
+    <string name="dalej">Dalej</string>
+    <string name="cofnij">Cofnij</string>
+    <string name="start">Start</string>
+
+    <!-- String napisy długie -->
+
+    <!-- Tutorial ekran 1 -->
+    <string name="witaj">Witaj!</string>
+    <string name="wskazówki_1">Podane wskazówki pomogą ci korzystać z MycoScan w najlepszy sposób.</string>
+    <string name="dobrej_zabawy">Dobrej zabawy przy polowaniu na gryby!</string>
+
+    <!-- Tutorial ekran 2 -->
+    <string name="tutorial_1_1">Zbyt mały, zbyt daleko</string>
+    <string name="tutorial_1_2">Jeśli grzyby są skanowane ze zbyt dużej odległości, rozpoznawanie obrazu nie uzyska wystarczającej ilości szczegółów i wynik nie będzie miarodajny.</string>
+    <string name="tutorial_1_3">Odpowiednia odległość</string>
+    <string name="tutorial_1_4">Jeśli grzyby wypełniają formatkę, detekcja działa optymalnie. Oczywiście nie odległość powinna być też zbyt mała, tak aby cały grzyb znalazł się na zdjęciu</string>
+
+    <!-- Tutorial ekran 3 -->
+    <string name="tutorial_2_1">Tylko kapelusz od góry</string>
+    <string name="tutorial_2_2">Jeśli kapelusz grzyba jest sfotografowany tylko od góry, w rozpoznawaniu obrazu zabraknie informacji o kształcie trzonu i blaszek</string>
+    <string name="tutorial_2_3">Zdjęcie całego grzyba</string>
+    <string name="tutorial_2_4">Kaptur, łodyga z bulwą, a zwłaszcza blaszki, rurki lub ściernisko powinny zawsze być na zdjęciu, aby wykrywanie dało dobre wyniki.</string>
+
+    <!-- Tutorial ekran 4 -->
+    <string name="tutorial_3_1">Bez naturalnego tła</string>
+    <string name="tutorial_3_2">Jeśli brakuje naturalnego tła, ważne szczegóły mogą nie zostać wykorzystane do rozpoznania.</string>
+    <string name="tutorial_3_3">Naturalne tło</string>
+    <string name="tutorial_3_4">Środowisko naturalne zawiera ważne informacje, które mają pozytywny wpływ na dokładność rozpoznania grzyba</string>
+
+    <!-- Tutorial regulamin -->
+    <string name="koniec_wskazówki">Więcej wskazówek!</string>
+    <string name="regulamin">
+        • Nigdy nie spożywaj grzybów wyłącznie na podstawie wykrycia przez aplikację\n \n
+    •Zawsze zakładaj, że wyniki wykrywania grzybów mogą być błędne\n \n
+    •jeśli potrzebujesz pomocy w identyfikacji grzybów, zapytaj eksperta np. istnieją grupy na Facebooku, które są bardzo dobrze zorientowane w temacie grzybów\n \n
+    •Upewnij się że jakość zdjęcia jest dobra: dla wiarygodnej identyfikacji, zdjęcie powinno być ostre, nie za ciemne lub za jasne\n \n
+    </string>
+
+    <!-- alty dla obrazów -->
+    <string name="alt_logo">logo</string>
+    <string name="alt_place_holder">place holder</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         boolean isFirstLaunch = preferences.getBoolean("isFirstLaunch", true);
 
         if (isFirstLaunch) {  //if statement to check whether the app is opened for the first time, if so launch tutorial
-            Intent intent = new Intent(this, Tutorial.class);
+            Intent intent = new Intent(this, tutorial1.class);
             startActivity(intent);
             finish();
 
