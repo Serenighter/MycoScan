@@ -2,9 +2,9 @@ package com.example.mycoscan;
 
 import android.content.Intent;
 import android.os.Bundle;
+import androidx.activity.EdgeToEdge;
 import android.view.MenuItem;
 import android.view.View;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,6 +24,7 @@ public class AtlasGrzybow extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_atlas_grzybow);
 
         drawerLayout = findViewById(R.id.drawer_layout);

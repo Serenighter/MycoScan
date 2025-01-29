@@ -1,17 +1,17 @@
 package com.example.mycoscan;
 
 import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import java.util.List;
+
 import java.util.ArrayList;
+import java.util.List;
 
-
-public class Ulubione extends AppCompatActivity {
+public class FavoritesActivity extends AppCompatActivity {
     private RecyclerView favoritesRecyclerView;
     private MushroomAdapter adapter;
-
     private List<Mushroom> mushroomList;
 
 
@@ -22,16 +22,16 @@ public class Ulubione extends AppCompatActivity {
 
         mushroomList = JSONHelper.loadMushroomsFromAssets(this);
 
-//        RecyclerView recyclerView = findViewById(R.id.favoritesRecyclerView);
-//        adapter = new MushroomAdapter(this, mushroomList);
-//        recyclerView.setAdapter(adapter);
-//        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        RecyclerView recyclerView = findViewById(R.id.favoritesRecyclerView);
+        adapter = new MushroomAdapter(this, mushroomList);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         favoritesRecyclerView = findViewById(R.id.favoritesRecyclerView);
         favoritesRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-//        List<Mushroom> favoriteMushrooms = loadFavorites();
-        adapter = new MushroomAdapter(this, mushroomList);
+        List<Mushroom> favoriteMushrooms = loadFavorites();
+        adapter = new MushroomAdapter(this, favoriteMushrooms);
         favoritesRecyclerView.setAdapter(adapter);
     }
 

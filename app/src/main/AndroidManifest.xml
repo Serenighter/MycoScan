@@ -26,6 +26,7 @@
         <activity android:name=".Skaner" android:exported="true" />
         <activity android:name=".Ulubione" />
         <activity android:name=".Pomoc" android:exported="true"/>
+        <activity android:name=".Start"/>
         <activity android:name=".AtlasGrzybow" android:exported="true"/>
         <activity android:name=".tutorial1" android:exported="true"/>
         <activity android:name=".tutorial2" android:exported="true"/>
@@ -35,7 +36,6 @@
         <activity android:name=".test" android:exported="true"/>
         <activity android:name=".Onas" android:exported="true"/>
         <activity android:name=".OcenNas" android:exported="true"/>
-
 
     </application>
 

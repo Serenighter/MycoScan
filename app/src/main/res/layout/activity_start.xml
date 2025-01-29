@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/gray"
+tools:context=".MainActivity">
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/MenuButton"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    app:boxCornerRadiusBottomEnd="5dp"
+    app:boxCornerRadiusBottomStart="5dp"
+    app:boxCornerRadiusTopEnd="5dp"
+    app:boxCornerRadiusTopStart="5dp"
+    app:boxStrokeWidth="0dp"
+    app:boxStrokeWidthFocused="0dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/MenuButton" />
+
+<TextView
+    android:id="@+id/appName"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/app_name"
+    android:textColor="@color/brown"
+    android:fontFamily="sans-serif-medium"
+    android:textSize="48sp"
+    app:layout_constraintWidth_percent="1"
+    app:layout_constraintVertical_bias="0.65"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@id/fragment_container"
+    app:layout_constraintBottom_toBottomOf="parent" />
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/pomocButton"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="32dp"
+    android:layout_marginEnd="32dp"
+    android:layout_marginTop="16dp"
+    android:padding="16dp"
+    android:text="Pomoc"
+    android:textSize="20sp"
+    android:textAllCaps="true"
+    android:textColor="@color/light_brown"
+    android:backgroundTint="@color/brown"
+    app:layout_constraintWidth_percent="0.4"
+    app:layout_constraintVertical_bias="0.75"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@id/appName"
+    app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
