@@ -2,11 +2,8 @@ package com.example.mycoscan;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -17,19 +14,17 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class Skaner extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class Onas extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-    ImageButton btnCam;
-    Button btnTutorial;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_skaner);
+        setContentView(R.layout.o_nas);
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
@@ -43,31 +38,6 @@ public class Skaner extends AppCompatActivity implements NavigationView.OnNaviga
         toggle.syncState();
 
         navigationView.setNavigationItemSelectedListener(this);
-
-        btnTutorial = findViewById(R.id.btnTutorial);
-        btnTutorial.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Skaner.this, tutorial1.class);
-                startActivity(intent);
-            }
-        });
-
-
-                btnCam = (ImageButton) findViewById(R.id.btnCam);
-        btnCam.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Intent intent = new Intent();
-                    intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
-                    startActivity(intent);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-
 
     }
 
@@ -112,7 +82,7 @@ public class Skaner extends AppCompatActivity implements NavigationView.OnNaviga
             startActivity(intent);
 
         } else if (id == R.id.nav_onas) {
-            // Przejście do ekranu Twórcy (obecny ekran)
+            // Przejście do ekranu Twórcy
             Intent intent = new Intent(this, Onas.class);
             startActivity(intent);
         }
@@ -121,6 +91,5 @@ public class Skaner extends AppCompatActivity implements NavigationView.OnNaviga
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
-
-
 }
+

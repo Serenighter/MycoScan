@@ -55,4 +55,15 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+
+    <!-- Ekran pomocy -->
+    <string name="nas">O nas</string>
+    <string name="apk_myc">Aplikacja została stworzona przez zespół pasjonatów technologi i przyrody.</string>
+    <string name="tworcy">Twórcy aplikacji:</string>
+    <string name="krystian"> 1. Krystian - Programista.</string>
+    <string name="Benek">2. Benek - Projektant UX/UI, Stworzył intuicyjny interfejs użytkownika.</string>
+    <string name="Jacek">3.J acek - ekspert ds.grzybów, zapewnił merytoryczną bazę wiedzy o gatunkach.</string>
+    <string name="Mateusz">4. Mateusz - Programista, kontrola wersji.</string>
+    <string name="dzieki">Dziękujemy za korzystanie z naszej aplikacji! Jęsli masz pytania lub sugestie, skontaktuj się z nami.</string>
+
 </resources>

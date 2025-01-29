@@ -2,11 +2,12 @@ package com.example.mycoscan;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
+import android.widget.EditText;
+import android.widget.RatingBar;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -17,19 +18,19 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class Skaner extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class OcenNas extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-    ImageButton btnCam;
-    Button btnTutorial;
-
+    private RatingBar ratingBar;
+    private EditText feedbackEditText;
+    private Button submitButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_skaner);
+        setContentView(R.layout.ocen_nas);
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
@@ -44,32 +45,30 @@ public class Skaner extends AppCompatActivity implements NavigationView.OnNaviga
 
         navigationView.setNavigationItemSelectedListener(this);
 
-        btnTutorial = findViewById(R.id.btnTutorial);
-        btnTutorial.setOnClickListener(new View.OnClickListener() {
+        // Initialize rating system views
+        ratingBar = findViewById(R.id.rating_bar);
+        feedbackEditText = findViewById(R.id.et_feedback);
+        submitButton = findViewById(R.id.btn_submit);
+
+        submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Skaner.this, tutorial1.class);
-                startActivity(intent);
-            }
-        });
+                float rating = ratingBar.getRating();
+                String feedback = feedbackEditText.getText().toString().trim();
 
-
-                btnCam = (ImageButton) findViewById(R.id.btnCam);
-        btnCam.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Intent intent = new Intent();
-                    intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
-                    startActivity(intent);
-                } catch (Exception e) {
-                    e.printStackTrace();
+                if (rating == 0) {
+                    Toast.makeText(OcenNas.this, "Podaj ocenę", Toast.LENGTH_SHORT).show();
+                    return;
                 }
+
+                Toast.makeText(OcenNas.this, "Dziękujemy za opinię!\nOcena: " + rating + "\nFeedback: " + feedback, Toast.LENGTH_LONG).show();
+
+                ratingBar.setRating(0);
+                feedbackEditText.setText("");
             }
         });
-
-
     }
+
 
     @Override
     public void onBackPressed() {
@@ -112,7 +111,7 @@ public class Skaner extends AppCompatActivity implements NavigationView.OnNaviga
             startActivity(intent);
 
         } else if (id == R.id.nav_onas) {
-            // Przejście do ekranu Twórcy (obecny ekran)
+            // Przejście do ekranu Twórcy
             Intent intent = new Intent(this, Onas.class);
             startActivity(intent);
         }
@@ -121,6 +120,5 @@ public class Skaner extends AppCompatActivity implements NavigationView.OnNaviga
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
-
-
 }
+
